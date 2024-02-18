@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ZooToDo</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget{
+background-color: rgb(255,250,240);
+}
+#ToDoList,#Zoo{
+background-color: rgb(253,245,230);
+}
+#ToDoList{
+border: 3px solid rgb(238,220,130);
+}
+QLineEdit {
+      border: 0.5px solid rgb(147, 150, 154);
+      border-radius: 6px;
+      background-color: rgb(255,250,245);
+      min-width: 80px;
+	  font-family: &quot;Microsoft YaHei&quot;;
+	  font-size:11pt;
+	  font-weight: bold;
+	  color:rgb(100, 100, 100);
+}
+QListWidget{
+      border: 0.5px solid rgb(147, 150, 154);
+      border-radius: 6px;
+      background-color: rgb(255,250,245);
+      min-width: 80px;
+	  font-family: &quot;Microsoft YaHei&quot;;
+	  font-size:11pt;
+	  font-weight: bold;
+      padding:10px;
+	  color:rgb(100, 100, 100);
+}
+QPushButton {
+      border: 0.5px solid white;
+      border-radius: 6px;
+      background-color: rgb(90,194,198);
+      min-width: 40px;
+	  font-family: &quot;Microsoft YaHei&quot;;
+	  font-size:11pt;
+	  font-weight: bold;
+	  color:white;
+  }
+ QPushButton:hover { 
+	border: 0.5px solid white;
+      border-radius: 6px;
+      background-color: #1fab89;
+      min-width: 40px;
+	  font-family: &quot;Microsoft YaHei&quot;;
+	  font-size:10pt;
+	  font-weight: bold;
+	  color:white;
+ }</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QWidget" name="Zoo" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>500</width>
+        <height>0</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="ToDoList" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QPushButton" name="confirmButton">
+             <property name="text">
+              <string>Confirm</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="clearButton">
+             <property name="text">
+              <string>Clear</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QListWidget" name="listWidget">
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
+           <property name="spacing">
+            <number>2</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLineEdit" name="lineEdit">
+             <property name="minimumSize">
+              <size>
+               <width>82</width>
+               <height>30</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="addButton">
+             <property name="minimumSize">
+              <size>
+               <width>42</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Add</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
