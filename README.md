@@ -2,7 +2,7 @@
 
 A to-do list app that uses virtual animals as rewards to motivate users.
 
-This is the creation of my EPQ project.
+This is the creation of my EPQ project. It is made with C++ and Qt6.
 
 When you finish all the tasks, you'll get an animal in your zoo as reward.
 
@@ -19,7 +19,7 @@ When you finish all the tasks, you'll get an animal in your zoo as reward.
 
 一个待办事项列表应用程序，使用虚拟动物作为奖励来激励用户。
 
-这是我的EPQ项目的产出作品。
+这是我的EPQ项目的产出作品。它是用C++和Qt6开发的。
 
 当你完成所有任务时，你会在动物园里得到一只动物作为奖励。
 
